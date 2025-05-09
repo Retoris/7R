@@ -1,0 +1,106 @@
+body{
+    background-color: #080806cc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 85%;
+    height: 85%;
+}
+
+span{
+    user-select: none;
+    cursor: pointer;
+    color: #fffae4;
+}
+
+a{ 
+    text-decoration: none;
+    color: rgb(190, 190, 1);
+}
+a:visited{
+    color: rgb(190, 190, 1);
+}
+a:active{
+    color: rgb(190, 190, 1);
+}
+
+#maincontent{
+    width: 320px;
+    height: 340px;
+    background-color: #080806;
+    margin: 50px 0 50px 0;
+    outline: #0c0c0c 12px solid;
+    box-shadow: 15px 15px 5px #0c0c0c;
+}
+
+.form-header{
+    width: 320px;
+    height: 30px;
+}
+
+.main-items{
+    width: 320px;
+    height: 40px;
+    margin: 1px 0 15px 0;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.jc-space-bwn{
+    display: flex;
+}
+
+.customer-check{   
+    width: 280px;
+    height: 20px;
+    margin: 1px 0 15px 0;
+    text-align: center;
+    padding: 3px 0 0 22px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.customer-check input{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.log-in-btn{
+    margin-top: 40px;
+}
+
+.sign-in-btn{
+    margin-top: 5px;
+}
+
+.log-in-btn input:hover, .sign-in-btn input:hover{
+    cursor: pointer;
+}
+
+.diviter{
+    width: 85%;
+    height: 0.1px;
+    border: #0c0c0c solid 3px;
+    border-radius: 25%;
+    margin: 0 0 5px 5%;
+}
+
+.sign-link{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.space-3px{
+    margin-right:3px; 
+    display:inline-block;
+}
